@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Signup</string>
+    <string name="back">Back</string>
+    <string name="nextScreen">Welcome to next Screen</string>
 </resources>

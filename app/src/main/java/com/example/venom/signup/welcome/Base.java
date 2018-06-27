@@ -18,8 +18,10 @@ public abstract class Base extends AppCompatActivity {
             onButtonClick();
     }
 
+    /* abstract method used for buttonClick Listener */
     public abstract void onButtonClick();
-     public abstract void setText();
-
-     public abstract int getLayout();
+    /* abstract method used for setText in TextView */
+    public abstract void setText();
+    /* abstract method used for return layout */
+    public abstract int getLayout();
 }
