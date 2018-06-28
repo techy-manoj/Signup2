@@ -2,4 +2,7 @@
     <string name="app_name">Signup</string>
     <string name="back">Back</string>
     <string name="nextScreen">Welcome to next Screen</string>
+    <string name="name">Manoj</string>
+    <string name="welcome_msg">Welcome to MainActivity</string>
+    <string name="button2">Button2</string>
 </resources>

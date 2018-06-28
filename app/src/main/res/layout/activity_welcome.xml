@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".welcome.Welcome">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button2"
+        android:onClick="onMyNameClick"
+        />
 
     <TextView
         android:id="@+id/textView_2"

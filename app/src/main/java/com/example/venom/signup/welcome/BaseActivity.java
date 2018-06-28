@@ -1,27 +1,23 @@
 package com.example.venom.signup.welcome;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.Button;
 
-import com.example.venom.signup.MainActivity;
-import com.example.venom.signup.R;
-
-public abstract class Base extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayout());
-            setText();
-            onButtonClick();
+        onActivityCreated();
     }
 
+    // we will create generic method
+    // onActivityCreated
     /* abstract method used for buttonClick Listener */
-    public abstract void onButtonClick();
+    public abstract void onActivityCreated();
+
     /* abstract method used for setText in TextView */
-    public abstract void setText();
+    //public abstract void setText();
     /* abstract method used for return layout */
     public abstract int getLayout();
 }
